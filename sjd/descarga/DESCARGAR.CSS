@@ -1,0 +1,113 @@
+
+  /*Descargar CODIGOS*/
+
+  body{
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+  }
+  
+  .menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a:hover{
+    background: #ef8354;
+  }
+  
+.ihy {
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}  
+
+.HY {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  margin-bottom: 5px color solid #000;
+  top: 50%;
+  left: 50%;
+}
+
+/*Cerrar*/
+.body-page{
+  height:30vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.boton{
+  text-decoration:none;
+  color: #fff;
+  background-color: steelblue;
+  padding: .5em 1em;
+  border-bottom-color: #222;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  align-self:center;
+}
+#vmodal { 
+  background-color:#000;
+  color: #fff;
+  position: fixed;
+  top:0;
+  left:-100vw;
+  width:50vw;
+  height: 50vh;
+  transition: all .5s;
+  font-family:'Roboto';
+
+}
+#vmodal:target{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  left:0;
+}
+.cerrar{
+  display:flex;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:.5em;
+  background-color: tomato;
+  color:#fff;
+  text-decoration:none;
+  font-size:.7em;
+  box-sizing:border-box;
+}
+.parrafo{
+  width:70%;
+  text-align:justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.HT{
+  height:30vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.TY{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
